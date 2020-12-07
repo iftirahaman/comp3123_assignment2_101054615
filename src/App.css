@@ -1,0 +1,186 @@
+
+/*start*/
+/*tag management*/
+body{
+  background-color:#05314e;
+  text-align: center;
+  background-image: url("./components/img/istockphoto-1174841576-612x612.jpg");
+  background-blend-mode: overlay ;
+  background-repeat: fill;
+}
+
+.wrapper{
+text-align: center;
+height: auto;
+padding: 20px;
+margin: 20px;
+border-radius: 25px;
+color: white;
+width: 100%;
+}
+
+.main{
+text-align: center;
+height: auto;
+padding: 20px;
+margin:0px;
+}
+
+.head{
+color:#38d35a;
+font-family: Arial, Helvetica, sans-serif;
+padding: "10px";
+font-size: x-large;
+text-align: center;
+height: auto;
+margin:0px;
+
+}
+
+.datetime{
+text-align: center;
+height: auto;
+padding: 5px;
+
+margin:0px;
+color: white;
+}
+.tagline{text-align: center;
+  height: auto;
+  padding: 15px;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0px;
+  color: darkorange;
+  font-family: monospace;
+}
+.conprovider{
+
+text-align: -webkit-center;
+height: auto;
+padding: 5px;
+width: 100%;
+margin:0px;
+color: white;
+}
+.weathersearch{
+  width: 70%;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  display: flex;
+}
+.error{
+
+  text-align: center;
+  height: auto;
+  padding: 5px;
+  color: #e22b18;
+  font-style: italic;
+  font-weight: bolder;
+}
+.footer{
+
+text-align: center;
+height: auto;
+padding: 5px;
+
+color: white;
+}
+.weatherdata{
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+width: fit-content;
+height: fit-content;
+border: 7px solid#2378c78f;
+background:darkgreen;
+margin: 10px;
+text-align: center;
+padding: 5px;
+color: white;
+margin: auto;
+
+}
+
+#weatherdataheader{
+
+text-align: center;
+height: fit-content;
+padding: 10px;
+background-color: #0084ff8f;
+color: white;
+border-radius:25px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#weatherdatacontentright{
+text-align: center;
+height: auto;
+padding: 5px;
+background-color: #0084ff8f;
+color: white;
+border-radius:25px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+#header h1 {
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.icon {
+  margin-top: 15px;
+  padding: 0;
+  background-color: #00d9ff67;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+button{
+  background-color: black;
+  color: white;
+  display: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  width: 246px;
+  text-shadow: none;
+  display: center;
+  text-align: center;
+  appearance: textfield;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding:4px 2px;
+  border-width: 5px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-image: url('./components/img/search.jpg');
+}
